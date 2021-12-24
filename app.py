@@ -23,7 +23,7 @@ app = MultiApp()
 
 st.image("media/logo.png")
 
-st.title('Visualizations')
+st.title('Welcome')
 # Add all your application here
 app.add_app("Home", home.app)
 app.add_app("Molecular 3D", mol3d.app)
