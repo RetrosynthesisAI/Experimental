@@ -44,10 +44,14 @@ def cs_sidebar():
     app.add_app("Zoonotic Diseases", zoo.app)
     app.run()
     # The main app
+    return None
 
 def cs_body():
     image = Image.open('media/logo.png')
     st.image(image1)
+    return None
 
 
+if __name__ == '__main__':
+    main()
 
