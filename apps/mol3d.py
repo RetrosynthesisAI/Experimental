@@ -27,7 +27,6 @@ def app():
     col1, col2 = st.columns(2)
   
     with col1:
-
         st.header('Molecular Visualizations')
         st.write('Please visit the Protein DataBank for more structural identifiers that you can input below, try the Structure of human SRSF1 RRM1 bound to AACAAA RNA: **6HPJ** [1]')
         component_3dmol()  
@@ -35,7 +34,6 @@ def app():
         component_3dmol()
         
     with col2:
-
         st.header('')
         st.write('')
         st.write('')
