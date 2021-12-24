@@ -23,7 +23,7 @@ app = MultiApp()
 
 #st.markdown('''[<img src='data:image/png;base64,{}' class='img-fluid' width=30% height=30%>](https://retrosynthesis-ai.netlify.app/index.html)'''.format(img_to_bytes("media/logo.png")), unsafe_allow_html=True)
 
-title('Visualizations')
+st.title('Visualizations')
 # Add all your application here
 app.add_app("Home", home.app)
 app.add_app("Molecular 3D", mol3d.app)
