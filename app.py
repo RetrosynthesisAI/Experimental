@@ -21,7 +21,7 @@ st.set_page_config(
 app = MultiApp()
 
 
-st.markdown('''[<img src='data:image/png;base64,{}' class='img-fluid' width=30% height=30%>](https://retrosynthesis-ai.netlify.app/index.html)'''.format(img_to_bytes("media/logo.png")), unsafe_allow_html=True)
+st.image("media/logo.png")
 
 st.title('Visualizations')
 # Add all your application here
