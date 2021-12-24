@@ -25,7 +25,7 @@ st.image("media/logo.png")
 
 st.title('Visualizations')
 # Add all your application here
-app.add_app("Home", home.app)
+app.add_app("Welcome", home.app)
 app.add_app("Molecular 3D", mol3d.app)
 app.add_app("Drug Resistant Diseases", drugres.app)
 app.add_app("In-Utero Diseases", inutero.app)
