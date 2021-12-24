@@ -36,12 +36,12 @@ def main():
 def cs_sidebar():   
     st.sidebar.title('Visualizations')
     # Add all your application here
-    app.add_app("Home", home.app)
-    app.add_app("Molecular 3D", mol3d.app)
-    app.add_app("Drug Resistant Diseases", drugres.app)
-    app.add_app("In-Utero Diseases", inutero.app)
-    app.add_app("Neglected Tropical Diseases", negtrop.app)
-    app.add_app("Zoonotic Diseases", zoo.app)
+    st.sidebar.app.add_app("Home", home.app)
+    st.sidebar.app.add_app("Molecular 3D", mol3d.app)
+    st.sidebar.app.add_app("Drug Resistant Diseases", drugres.app)
+    st.sidebar.app.add_app("In-Utero Diseases", inutero.app)
+    st.sidebar.app.add_app("Neglected Tropical Diseases", negtrop.app)
+    st.sidebar.app.add_app("Zoonotic Diseases", zoo.app)
     app.run()
     # The main app
     return None
