@@ -26,32 +26,18 @@ def img_to_bytes(img_path):
     encoded = base64.b64encode(img_bytes).decode()
     return encoded
 
-def main():
-    cs_sidebar()
-    cs_body()
+image = Image.open('media/logo.png')
+st.image(image1)
+title('Visualizations')
+# Add all your application here
+app.add_app("Home", home.app)
+app.add_app("Molecular 3D", mol3d.app)
+app.add_app("Drug Resistant Diseases", drugres.app)
+app.add_app("In-Utero Diseases", inutero.app)
+app.add_app("Neglected Tropical Diseases", negtrop.app)
+app.add_app("Zoonotic Diseases", zoo.app)
+app.run()
+ 
 
-##########################
-# Sidebar  
-##########################
-def cs_sidebar():   
-    st.sidebar.title('Visualizations')
-    # Add all your application here
-    st.sidebar.app.add_app("Home", home.app)
-    st.sidebar.app.add_app("Molecular 3D", mol3d.app)
-    st.sidebar.app.add_app("Drug Resistant Diseases", drugres.app)
-    st.sidebar.app.add_app("In-Utero Diseases", inutero.app)
-    st.sidebar.app.add_app("Neglected Tropical Diseases", negtrop.app)
-    st.sidebar.app.add_app("Zoonotic Diseases", zoo.app)
-    app.run()
-    # The main app
-    return None
-
-def cs_body():
-    image = Image.open('media/logo.png')
-    st.image(image1)
-    return None
-
-
-if __name__ == '__main__':
-    main()
-
+ 
+ 
