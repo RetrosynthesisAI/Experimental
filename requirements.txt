@@ -4,3 +4,4 @@ umap
 pillow
 pandas >= 1.0.5
 Image >=1.5.33
+stmol
