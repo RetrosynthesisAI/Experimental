@@ -42,6 +42,7 @@ def cs_sidebar():
     app.add_app("In-Utero Diseases", inutero.app)
     app.add_app("Neglected Tropical Diseases", negtrop.app)
     app.add_app("Zoonotic Diseases", zoo.app)
+    app.run()
     # The main app
 
 def cs_body():
@@ -49,4 +50,4 @@ def cs_body():
     st.image(image1)
 
 
-app.run()
+
