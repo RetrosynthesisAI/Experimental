@@ -21,13 +21,8 @@ st.set_page_config(
 app = MultiApp()
 
 
-def img_to_bytes(img_path):
-    img_bytes = Path(img_path).read_bytes()
-    encoded = base64.b64encode(img_bytes).decode()
-    return encoded
+#st.markdown('''[<img src='data:image/png;base64,{}' class='img-fluid' width=30% height=30%>](https://retrosynthesis-ai.netlify.app/index.html)'''.format(img_to_bytes("media/logo.png")), unsafe_allow_html=True)
 
-image = Image.open('media/logo.png')
-st.image(image1)
 title('Visualizations')
 # Add all your application here
 app.add_app("Home", home.app)
