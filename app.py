@@ -1,21 +1,17 @@
-
 import streamlit as st
-import plotly.figure_factory as ff
-import numpy as np
+from multiapp import MultiApp
+from apps import home, data, model # import your app modules here
 
-# Add histogram data
-x1 = np.random.randn(200) - 2
-x2 = np.random.randn(200)
-x3 = np.random.randn(200) + 2
+app = MultiApp()
 
-# Group data together
-hist_data = [x1, x2, x3]
+st.markdown("""
+# Multi-Page App
+This multi-page app is using the [streamlit-multiapps](https://github.com/upraneelnihar/streamlit-multiapps) framework developed by [Praneel Nihar](https://medium.com/@u.praneel.nihar). Also check out his [Medium article](https://medium.com/@u.praneel.nihar/building-multi-page-web-app-using-streamlit-7a40d55fa5b4).
+""")
 
-group_labels = ['Group 1', 'Group 2', 'Group 3']
-
-# Create distplot with custom bin_size
-fig = ff.create_distplot(
-         hist_data, group_labels, bin_size=[.1, .25, .5])
-
-# Plot!
-st.plotly_chart(fig, use_container_width=True)
+# Add all your application here
+app.add_app("Home", home.app)
+app.add_app("Data", data.app)
+app.add_app("Model", model.app)
+# The main app
+app.run()
