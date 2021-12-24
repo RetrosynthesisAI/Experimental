@@ -24,7 +24,7 @@ app = MultiApp()
 st.image("media/logo.png")
 
 st.title('Global Disease Research')
-st.write('Our global user base of scientists have been')
+st.write('The aim of the Explore app is to enable scientists to explore')
 # Add all your application here
 app.add_app("Home", home.app)
 app.add_app("Molecular 3D", mol3d.app)
