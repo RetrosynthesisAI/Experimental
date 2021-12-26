@@ -10,7 +10,7 @@ def app():
     st.write("[Systemic Lupus Erythematosus/SNPs of SOD2 and GSTP1](https://www.sciencedirect.com/science/article/abs/pii/S0009912020309024?via%3Dihub)")
     st.write("[More studies](https://pubmed.ncbi.nlm.nih.gov/?term=egyptian+pediatric+disease&filter=articleattr.data&filter=years.2020-2021)")
     st.write('Genomic Datasets')
-    st.write("No central resource for Egyptian Pediatric Disease Genomic Datasets exists.")
+    st.write("**No central resource for Egyptian Pediatric Disease Genomic Datasets exists.**")
     st.write('General Genomic Resources')
     st.write("[Egyptian and North African Reference Genome](https://www.egyptian-genome.org/)")
     st.write("[Interactive Population Genome 3D](https://www.egyptian-genome.org/img/PCA_interactive.html)")
