@@ -15,7 +15,7 @@ def app():
     st.write("[  ]( )")
     st.write("[  ]( )")
     st.write('General Genomic Resources')
-    st.write('[ArrayExpress]
+    st.write('[ArrayExpress]')
     st.write("[Egyptian and North African Reference Genome](https://www.egyptian-genome.org/)")
     st.write("[Interactive Population Genome 3D](https://www.egyptian-genome.org/img/PCA_interactive.html)")
  
