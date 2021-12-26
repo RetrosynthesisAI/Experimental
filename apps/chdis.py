@@ -7,6 +7,6 @@ def app():
     st.write("[CRISPR/Beta-Thalssemia IVS-1-110 mutation](https://stemcellres.biomedcentral.com/articles/10.1186/s13287-020-01876-4)")
     st.write("[Egyptian Sickle Cell Disease/IL-1β and IL-6 Polymorphisms](https://epag.springeropen.com/articles/10.1186/s43054-020-00025-z )")
     st.write('Genomic Resources')
-    st.write('Egyptian Genome Reference')
-    st.write('Interactive Population Genome 3D')
+    st.write('[Egyptian and North African Reference Genome](https://www.egyptian-genome.org/)')
+    st.write('[Interactive Population Genome 3D](https://www.egyptian-genome.org/img/PCA_interactive.html)')
  
