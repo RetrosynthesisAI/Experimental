@@ -1,6 +1,7 @@
 import streamlit as st
 from PIL import Image
 import plotly.graph_objects as go
+from sklearn.datasets import load_iris
 
 def app():
     st.subheader('Regional Focus')

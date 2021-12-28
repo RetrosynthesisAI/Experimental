@@ -1,5 +1,6 @@
 streamlit >= 0.79.0
 plotly==4.14.1
+scikit-learn==0.23.2
 umap
 pillow
 pandas >= 1.0.5
