@@ -6,7 +6,7 @@ Contributors: None
 """
 import streamlit as st
 from multiapp import MultiApp
-from apps import * # import your app modules here
+from apps import home, chdis, inutero, infec, drugres, negtrop, mol3d, zoo, neuro # import your app modules here
 from PIL import Image
 from pathlib import Path
 import base64
