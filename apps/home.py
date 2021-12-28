@@ -1,6 +1,6 @@
 import streamlit as st
 from PIL import Image
-import plotly.graph_objects as go
+import plotly.express as px
 from sklearn.datasets import load_iris
 
 def app():
@@ -9,5 +9,5 @@ def app():
     st.write(' ')
     iris = load_iris()
     df = iris.data
-    fig = go.scatter_3d(df, x='sepal_length', y='sepal_width', z='petal_width', color='species')
-    st.plotly_chart(fig)
+    fig = px.scatter_3d(df, x='sepal_length', y='sepal_width', z='petal_width', color='species')
+    fig.show()
