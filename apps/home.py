@@ -9,5 +9,5 @@ def app():
     st.write(' ')
     iris = load_iris()
     df = iris.data
-    fig = px.scatter_3d(df, x='sepal_length', y='sepal_width', z='petal_width', color='species')
+    fig = px.scatter_3d(df, x='0', y='1', z='2', color='3')
     fig.show()
