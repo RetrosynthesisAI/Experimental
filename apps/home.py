@@ -9,5 +9,5 @@ def app():
     st.write(' ')
     iris = load_iris()
     df = iris.data
-    fig = px.scatter_3d(df, x='0', y='1', z='2', color='3')
+    fig = px.scatter_3d(df, x=df['0'], y=df['1'], z=df['2'], color=df['3'])
     fig.show()
