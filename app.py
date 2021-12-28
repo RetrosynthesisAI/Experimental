@@ -28,13 +28,14 @@ st.write('The aim of the Explore app is to enable scientists to explore molecula
 # Add all your application here
 app.add_app("Home", home.app)
 app.add_app("Molecular 3D", mol3d.app)
-app.add_app("Pediatric Diseases", chdis.app)
 app.add_app("Drug Resistant Diseases", drugres.app)
 app.add_app("In Utero Diseases", inutero.app)
+app.add_app("Infectious Diseases", infec.app)
 app.add_app("Neglected Tropical Diseases", negtrop.app)
+app.add_app("Neurological Diseases", neuro.app)
+app.add_app("Pediatric Diseases", chdis.app)
 app.add_app("Zoonotic Diseases", zoo.app)
 app.run()
- 
 
  
  

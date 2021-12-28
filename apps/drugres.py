@@ -9,7 +9,7 @@ def app():
     st.write("[Genomic Mutations Mediating Drug Resistant TB/Rifampicin in Northern Morocco](https://www.scielo.br/j/rimtsp/a/bxXyCv9MQHjY5vfdcTgyRQg/?lang=en)")
     st.write("[HIV-1 Genotypic Drug Resistance Assay/Group M HIV-1 strains](https://www.sciencedirect.com/science/article/pii/S1567134820300757?via%3Dihub)")
     st.write("[3D-QSAR Molecular Docking/Explore Novel DHFR Inhibitors] (https://pubmed.ncbi.nlm.nih.gov/34825630/)")
-    st.write("[More studies](https://pubmed.ncbi.nlm.nih.gov/?term=egyptian+pediatric+disease&filter=articleattr.data&filter=years.2020-2021)")
+    st.write("[More studies](https://pubmed.ncbi.nlm.nih.gov/?term=drug+resistance+middle-east&filter=years.2018-2022)")
     st.write('**Genomic Datasets**')
     st.write("No central resource for Middle-Eastern Drug Resistant Genomic Datasets exists.")
     st.write('**General Genomic Resources**')
