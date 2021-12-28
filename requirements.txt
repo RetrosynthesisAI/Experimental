@@ -1,5 +1,5 @@
 streamlit >= 0.79.0
-plotly.express
+plotly-express
 umap
 pillow
 pandas >= 1.0.5
